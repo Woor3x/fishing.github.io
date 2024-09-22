@@ -1,18 +1,3 @@
-
-var username = null;
-//检验是否有登录信息
-try
-{
-    var storedAccount = sessionStorage.getItem("account");
-    var account = JSON.parse(storedAccount);
-    username = account.username;
-}
-catch(ex)
-{
-    alert("你尚未登陆!");
-    window.location.href = '../../../index.html';
-}
-
 // globalConfig.js
 		// ============================================================================
 		// ============================================================================
