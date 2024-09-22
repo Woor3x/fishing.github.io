@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    background: black;
+    text-align: start;
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-menu li a {
+    background: black;
+    display: block;
+    padding: 20px 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .dropdown {
+    text-align: center;
+    color: white;
+    display: block;
+    width: 230px;
+    padding: 20px;
+    background: black;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    top: 74px;
+    right: 0px;
+    display: none;
+  }
+  
+  .nav-menu li a:hover {
+    color: lightseagreen;
+  }
+  
+  .nav-menu li:hover ul.dropdown {
+    display: block;
+  }
+  
+  #active {
+    color: lightseagreen;
+  }
+  
+  .pic_list {
+    width: auto;
+    border: 1px solid #d9e5f5;
+    background: url(images/wrap.jpg) repeat-x 0 0;
+  }
+  
+  .pic_list h3 {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    text-indent: 12px;
+    font-weight: bold;
+    color: #223A6D;
+    background: url(images/wrap.jpg) no-repeat 0 0;
+  }
+  
+  .game-links {
+    width: 100%;
+    margin: 0 auto;
+    padding: 22px 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* 将对齐方式改为向左对齐 */
+    align-items: flex-start; /* 将链接垂直对齐方式改为向上对齐 */
+  }
+  
+  
+  .game-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-links li {
+    margin-right: 15px;
+  }
+  
+  .game-links li a {
+    display: block;
+    width: 142px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 15px; /* 调整链接之间的垂直间距 */
+  }
+  
+  .game-links li a img {
+    display: block;
+    width: 134px;
+    height: 101px;
+    padding: 3px;
+    margin-bottom: 8px;
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+  }
+  
+  .game-links li a:hover {
+    text-decoration: underline;
+    color: #CC0000;
+  }
+  
+  .game-links li a:hover img {
+    background-color: #22407E; 
+  }
+  
+  .game-links .game-link-container {
+    background: none; /* 移除背景色 */
+  }
+  

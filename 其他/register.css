@@ -1,0 +1,29 @@
+body{
+    background-image: url(./background.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.loginCard{
+    width: fit-content;
+    padding: 12px 40px;
+    margin: 310px auto;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 14px 1px #ccc;
+}
+
+.loginCard .logo{
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+    transform: translateY(-36px);
+    border:  1px solid #f0c;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 2px 2px 14px 1px #ccc;
+}
+
+.loginCard .logo img{
+    width: 100%;
+}
